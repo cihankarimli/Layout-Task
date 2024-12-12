@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+.layout{
+    border: 3px solid black;
+    width: 700px;
+    height: 520px;
+    margin: auto;
+    
+    
+    
+}
+.header{
+    border-top: 1px solid cyan;
+    width:max;
+    height:70px ;
+    background-color: cyan;
+    font-size: larger;
+    margin-bottom: 5px;
+
+}
+.maincontent{
+    border: 1px solid green;
+    width: 300px;
+    height: 210px;
+    background-color: green;
+    font-size: larger;
+}
+.sidebar{
+    
+    border: 1px solid purple;
+    width: 100px;
+    height: 210px;
+    background-color:purple;
+    font-size: larger;
+}
+.main{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    
+}
+.twin{
+    border: 1px solid orange;
+    width: 200px;
+    height: 150px;
+    background-color:orange;
+    font-size: larger;
+    margin-top: 5px;
+}
+.twins{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.footer{
+    border  : 1px solid blue;
+    width: max;
+    height: 70px;
+    background-color:blue;
+    font-size: larger;
+    margin-top: 5px;
+
+}
+
